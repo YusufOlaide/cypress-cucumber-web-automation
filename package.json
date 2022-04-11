@@ -1,0 +1,31 @@
+{
+  "name": "pangaea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- -browser chrome",
+    "recordDashboardTest": "npm run test -- --record --key 3dc1db91-58b7-49cd-8a84-28cb1eb4ecfe",
+    "multipleCucumberReports": "node cucumber-html-reports.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^1.6.2",
+    "multiple-cucumber-html-reporter": "^1.19.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

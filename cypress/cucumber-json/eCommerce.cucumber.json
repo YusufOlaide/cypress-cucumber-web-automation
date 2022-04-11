@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    Pangaea Ecommerce Application Regression",
+    "keyword": "Feature",
+    "name": "e2e ecommerce validation",
+    "line": 1,
+    "id": "e2e-ecommerce-validation",
+    "tags": [],
+    "uri": "eCommerce.feature",
+    "elements": [
+      {
+        "id": "e2e-ecommerce-validation;add-classic-maintenance-bundle-product-to-cart",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add Classic Maintenance Bundle Product to Cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the product page",
+            "result": {
+              "status": "passed",
+              "duration": 79898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on filter button",
+            "result": {
+              "status": "passed",
+              "duration": 2069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I select options by category, concern and price",
+            "result": {
+              "status": "passed",
+              "duration": 5446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I apply filter",
+            "result": {
+              "status": "passed",
+              "duration": 3188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I verify and click on Classic Maintenance Bundle product card",
+            "result": {
+              "status": "passed",
+              "duration": 48519000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "e2e-ecommerce-validation;product-checkout",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Product Checkout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I add product to cart",
+            "result": {
+              "status": "passed",
+              "duration": 45599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on proceed to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 10777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I verify the shipping information page",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

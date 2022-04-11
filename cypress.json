@@ -1,0 +1,11 @@
+{
+  "viewportWidth": 1536,
+  "viewportHeight": 960,
+  "testFiles": "**/*.feature",
+  "defaultCommandTimeout":10000,
+  "env": {
+    "url": "https://store.luminskin.com/"
+  },
+  "retries": 2,
+  "projectId": "jpgucj"
+}
